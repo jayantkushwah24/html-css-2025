@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+}
+
+#external{
+  color: green;
+}
+
+.background-properties{
+  background-color: aliceblue;
+  background-image: ("");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+
+}
+
+.gradients{
+  background-image: linear-gradient(to top , red , crimson , orange) , url("");
+  background-image: radial-gradient(blue,skyblue);
+}
+
+.filter{
+  filter: blur(1px);
+  filter: brightness(50%);
+  filter: contrast(20%);
+  filter: grayscale(1%);
+  filter: opacity(2%);
+  filter: saturate();
+}
+
+.display{
+  /* can't set height and width inline */
+  display: inline; 
+  /* cover the whole page  */
+  display: block;
+  /* can set height and width */
+  display: inline-block;
+  display: none;
+}
+
+.shadow{
+  /* x-axis y-axis bluryness color */
+  box-shadow: 10px 10px 20px black;
+
+}
+.position{
+  position: relative;
+  position: fixed;
+  position: absolute;
+  position: sticky;
+}
+.flex{
+  display: flex;
+}
